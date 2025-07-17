@@ -12,10 +12,10 @@ All DevOps Automation related material, Demos, Hands On Labs, Sample and Demo Ap
 
     [:material-application-cog: Demo App used in the Demo/Hands On Lab](https://devopsautomationlabs.github.io/EchoLogic_DemoApp/)
 
-- :simple-circuitverse:{ .lg .middle } __ELM (Engineering Lifecycle Management) and DevOps Velocity Demo__
+- :simple-circuitverse:{ .lg .middle } __DevOps Velocity and ELM (Engineering Lifecycle Management) Demo__
 
     ---
 
-    [:octicons-arrow-right-24: Getting started with ELM and DevOps Velocity Demo](https://devopsautomationlabs.github.io/ELM_Velocity/)
+    [:octicons-arrow-right-24: Getting started with DevOps Velocity and ELM Demo](https://devopsautomationlabs.github.io/ELM_Velocity/)
 
 </div>
