@@ -20,14 +20,14 @@ All DevOps Automation related material, Demos, Hands On Labs, Sample and Demo Ap
 
 - :test_tube:{ .lg .middle } __DevOps Test and ELM (Engineering Lifecycle Management) Demo:
 
-   ---
+    ---
 
-   [:octicons-arrow-right-24: Getting started with DevOps Test and ELM Demo](https://devopsautomationlabs.github.io/Test_ELM/)
+    [:octicons-arrow-right-24: Getting started with DevOps Test and ELM Demo](https://devopsautomationlabs.github.io/Test_ELM/)
 
-- :test_tube:{ .lg .middle } __DevOps Solution Workbench TechXchange 2025 Lab 2663:
+- :octicons-ai-model-24:{ .lg .middle } __DevOps Solution Workbench TechXchange 2025 Lab 2663:
 
-   ---
+    ---
 
-   [:octicons-arrow-right-24: Getting started with DevOps Test and ELM Demo](https://devopsautomationlabs.github.io/TechXchange_2663/)
+    [:octicons-arrow-right-24: Getting started with DevOps Test and ELM Demo](https://devopsautomationlabs.github.io/TechXchange_2663/)
 
 </div>
