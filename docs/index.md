@@ -28,6 +28,6 @@ All DevOps Automation related material, Demos, Hands On Labs, Sample and Demo Ap
 
     ---
 
-    [:octicons-arrow-right-24: Getting started with DevOps Test and ELM Demo](https://devopsautomationlabs.github.io/TechXchange_2663/)
+    [:octicons-arrow-right-24: Getting started with DevOps Solution Workbench](https://devopsautomationlabs.github.io/TechXchange_2663/)
 
 </div>
