@@ -1,2 +1,3 @@
 site_name: "Index"
+repo_url: "https://github.com/DevOpsAutomationLabs/Index"
 INHERIT: base.yml
