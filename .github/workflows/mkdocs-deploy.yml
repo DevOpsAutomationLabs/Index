@@ -1,0 +1,32 @@
+name: MkDocs Documentation Site Release Process
+
+on:
+  workflow_call:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code with submodules
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - uses: actions/cache@v4
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+
+      - name: Install Mkdocs and Material Theme
+        run: pip install mkdocs-material
+      - name: Install MkDocs Plugins
+        run: pip install mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin  mkdocs-git-authors-plugin mkdocs-minify-plugin mkdocs-search-index-updater-plugin 
+
+      - name: Deploy documentation site
+        run: mkdocs gh-deploy --force
