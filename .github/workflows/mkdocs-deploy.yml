@@ -26,7 +26,7 @@ jobs:
       - name: Install Mkdocs and Material Theme
         run: pip install mkdocs-material
       - name: Install MkDocs Plugins
-        run: pip install mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin  mkdocs-git-authors-plugin mkdocs-minify-plugin 
+        run: pip install mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin  mkdocs-git-authors-plugin mkdocs-minify-plugin mkdocs-toggle-sidebar-plugin
 
       - name: Deploy documentation site
         run: mkdocs gh-deploy --force
