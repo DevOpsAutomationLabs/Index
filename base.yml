@@ -1,60 +1,133 @@
 theme:
   name: material
   language: en
-  font: false
   icon:
-    logo: material/arrow-left
-  favicon: null
+    logo: material/rocket-launch
+    repo: fontawesome/brands/github
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.collapse
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.prune
+    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
     - toc.integrate
-    - content.tabs.link
-    - content.code.copy
-    - content.tooltips
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: blue
+      accent: light-blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: white
-      accent: teal
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: blue
+      accent: light-blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-      primary: white
-      accent: teal
+
 markdown_extensions:
+  - abbr
   - admonition
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - tables
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
   - attr_list
-  - md_in_html
-  - pymdownx.blocks.caption
   - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+      title: On this page
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tilde
+
 plugins:
-  - search
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - git-authors
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+  - tags:
+      tags_file: tags.md
+  - toggle-sidebar:
+      enabled: true
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+
 extra_css:
   - stylesheets/extra.css
+
 extra:
   generator: false
   homepage: https://devopsautomationlabs.github.io/Index/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DevOpsAutomationLabs
+      name: DevOps Automation Labs on GitHub
