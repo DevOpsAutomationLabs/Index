@@ -47,6 +47,14 @@
 
     [:octicons-arrow-right-24: Start Lab 2663](https://devopsautomationlabs.github.io/TechXchange_2663/)
 
+- :material-folder:{ .lg .middle } **Older Material**
+
+    ---
+
+    List of Labs from very past events.
+
+    [:octicons-arrow-right-24: Look at older labs](https://devopsautomationlabs.github.io/Old_Labs/)
+
 </div>
 
 ## 🎯 What You'll Find Here
